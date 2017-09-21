@@ -1,0 +1,99 @@
+body {
+	background-image: url('../images/nature.jpg');
+	color: #fff;
+	font-size: 30px;
+}
+
+h1{
+	font-size: 40px;
+	padding: 40px 0;
+}
+
+h2 {
+	padding-bottom: 40px;
+}
+
+.container {
+	background: rgba(76, 175, 80, 0.5);
+	width: 40%;
+	margin: 100px auto;
+	text-align: center;
+	max-height: 1000px;
+}
+
+.wrapper {
+	width: 100%;
+	position: relative;
+}
+
+li {
+	display: inline-block;
+	width: 30%;
+}
+
+.fa {
+	font-size: 26px;
+	padding-right: 10px;
+}
+
+.fa-heart {
+	color: red;
+}
+
+.fa-trophy {
+	color: yellow;
+}
+
+.fa-frown-o {
+	color: #071fa5;
+}
+
+#press-any-key {
+	background: #4c4c66;
+	width: 100%;
+	padding: 20px 0;
+	position: absolute;
+	top: -85px;
+	left: 0;
+}
+
+#guess-word {
+	letter-spacing: 5px;
+	display:inline-block;
+	margin: 40px 0;
+}
+
+p {
+	margin: 10px 0;
+}
+
+p.small-font-size {
+	font-size: 18px;
+	opacity: 0.8;
+	padding-bottom: 50px;
+}
+
+#guessed-letters {
+	display: inline-block;
+	padding: 5px 0;
+}
+
+.hide {
+	display: none;
+}
+
+.wrapper {
+	position: relative;
+}
+
+#reset {
+
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+}
+
+.fa-refresh:hover {
+	color: #ccc;
+}
+

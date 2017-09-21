@@ -3,13 +3,52 @@
 <head>
 	<meta charset="utf-8">
 	<title>Hangman Game</title>
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	 <!-- Added link to the jQuery Library -->
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 </head>
 <body>
 
+	<div class="container">
+		
+		<header>
+
+			<h1>HANGMAN GAME</h1>
+			<h2>U.S. National Parks</h2>
+
+		</header>
+
+		<div class="wrapper">
+
+			<ul>
+				<li><i class="fa fa-heart" aria-hidden="true"></i><span id="lives-count"></span></li>
+				<li><i class="fa fa-trophy" aria-hidden="true"></i><span id="wins-count"></span></li>
+				<li><i class="fa fa-frown-o" aria-hidden="true"></i><span id="losses-count"></span></li>
+			</ul>
+
+			<div id="press-any-key">
+				<p>U.S. National Parks Category</p>
+				<p>Press Space to get started!</p>
+			</div>
+
+			<p><span id="guess-word"></span></p>
+
+			<p><span id="my-letter"></span></p>
+
+			<p class="small-font-size">letters already guessed<br><span id="guessed-letters"></span></p>
+
+			<div id="reset"><i class="fa fa-refresh" aria-hidden="true"></i></div>
+
+		</div>
+
+	</div>
+
+
 	<script type="text/javascript" src="assets/javascript/game.js"></script>
 
-</body>
-</html>
+	</body>
+	</html>
